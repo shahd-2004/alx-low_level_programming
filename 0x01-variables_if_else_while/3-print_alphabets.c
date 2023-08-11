@@ -6,21 +6,13 @@
 
 int main(void)
 {
-char c;
+char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+int i;
 
-char d;
+for (i = 0; i < 52; i++)
 
-c = 'a';
-d = 'A';
-while
-(c <= 'z') {
-putchar(c);
-c++;
-}
-while
-(d <= 'z') {
-putchar (d);
-d++;
+{
+putchar(alp[i]);
 }
 putchar('\n');
 return (0);
